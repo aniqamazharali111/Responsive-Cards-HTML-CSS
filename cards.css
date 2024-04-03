@@ -1,0 +1,187 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-family: sans-serif;
+}
+.main{
+  
+  width: 1600px;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+
+}
+#card-one{
+padding: 0px 3px 0px 3px;
+width: 340px;
+height: 650px;
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+border-radius: 30px;
+
+}
+#card-two{
+    border-radius: 30px;
+    width: 340px;
+    height: 650px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+    }
+#card-three{
+    border-radius: 30px;
+        width: 340px;
+        height: 650px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+        }
+#card-four{
+    border-radius: 30px;
+            width: 340px;
+            height: 650px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+            }
+#shoes{
+    width: 330px;
+    height: 350px;
+    position: relative;
+    border-radius: 30px 30px 0px 0px ;
+     
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+p{
+    color: gray;
+  position: relative;
+  top: 20px;
+  left: 6px;
+  font-size: 18px
+}
+h2{
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+}
+#icon-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    gap: 10px;
+}
+i{
+    color: orange;
+    font-size: 45px;
+}
+#black-star{
+    color: black;
+    font-size: 45px;
+}
+.blue{
+    background-color: blue;
+    width: 340px;
+    height: 70px;
+    position: relative;
+    top: 60px;
+    right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size:30px ;
+    font-weight: bolder;
+    border-radius: 0px 0px 30px 30px;
+}
+#watch{
+    width: 330px;
+    height: 350px;
+    border-radius: 30px 30px 0px 0px ;
+}
+.green{
+    background-color: rgb(2, 88, 72);
+    width: 345px;
+    height: 70px;
+    position: relative;
+    top: 60px;
+    right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size:30px ;
+    font-weight: bolder;
+    border-radius: 0px 0px 30px 30px;
+}
+#black-star2{
+    color: black;
+    font-size: 45px;
+}
+#mobile{
+    width: 330px;
+    height: 350px;
+    border-radius: 30px 30px 0px 0px ;
+}
+.black{
+    background-color: black;
+    width: 345px;
+    height: 70px;
+    position: relative;
+    top: 60px;
+    right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size:30px ;
+    font-weight: bolder;
+    border-radius: 0px 0px 30px 30px;
+}
+#earphones{
+    width: 330px;
+    height: 350px;
+    border-radius: 30px 30px 0px 0px ;
+}
+.red{
+    background-color: red;
+    width: 345px;
+    height: 70px;
+    position: relative;
+    top: 60px;
+    right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size:30px ;
+    font-weight: bolder;
+    border-radius: 0px 0px 30px 30px;
+}
+#card-one, #card-two,#card-three, #card-four:hover{
+    cursor: pointer;
+  
+}
+ 
+ @media (max-width: 750px) {
+    .main{
+     display: flex;
+     flex-direction: column;
+     gap: 150px;
+     position: relative;
+     top: 1150px;
+     height: 3000px;
+    }
+   
+ }
+
